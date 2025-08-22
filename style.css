@@ -1,0 +1,113 @@
+body {
+    background: #f8f9fa;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #222;
+}
+
+.container#basic {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    padding: 32px 24px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 700;
+    color: #2c3e50;
+}
+
+h1 {
+    margin-bottom: 16px;
+}
+
+.pro img {
+    margin-bottom: 16px;
+    border: 4px solid #007bff;
+}
+
+.socials h4 {
+    margin-top: 24px;
+    margin-bottom: 8px;
+    color: #007bff;
+}
+
+#lk, #ig {
+    display: inline-block;
+    margin: 8px 12px;
+    padding: 8px 20px;
+    border-radius: 24px;
+    background: #e9ecef;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.2s, color 0.2s;
+}
+#lk:hover, #ig:hover {
+    background: #007bff;
+    color: #fff;
+}
+
+#edu {
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.edu img {
+    margin-bottom: 8px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+#skills {
+    margin-top: 32px;
+    margin-bottom: 24px;
+    background: #e9ecef;
+    border-radius: 12px;
+    padding: 16px 24px;
+}
+#skills ul {
+    list-style-type: disc;
+    padding-left: 24px;
+}
+#skills li {
+    font-size: 1.1em;
+    margin-bottom: 6px;
+}
+
+#marks {
+    margin-top: 32px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+#marks table {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    border-radius: 8px;
+    overflow: hidden;
+}
+#marks th, #marks td {
+    border: 1px solid #dee2e6;
+    padding: 12px 16px;
+    font-size: 1em;
+}
+#marks th {
+    background: #007bff;
+    color: #fff;
+}
+#marks tr:nth-child(even) {
+    background: #f1f3f6;
+}
+
+@media (max-width: 768px) {
+    .container#basic {
+        padding: 16px 8px;
+    }
+    #marks table {
+        width: 100%;
+    }
+}
