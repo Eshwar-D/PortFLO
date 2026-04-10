@@ -44,11 +44,14 @@ h1 {
     font-weight: 500;
     transition: background 0.2s, color 0.2s;
 }
-#lk:hover, #ig:hover {
+#lk:hover {
     background: #007bff;
     color: #fff;
 }
-
+#ig:hover{
+    background-color: rgb(226, 59, 190);
+    color:#fff
+}
 #edu {
     margin-top: 32px;
     margin-bottom: 16px;
